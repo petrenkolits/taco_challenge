@@ -1,0 +1,43 @@
+{
+  "resource": "Tacos",
+  "resource_explanation": null,
+  "http_method": "GET",
+  "route": "/tacos",
+  "description": "Get tacos list",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "response_fields": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/tacos",
+      "request_body": null,
+      "request_headers": {
+        "Accept": "application/json",
+        "Content-Type": "application/json",
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": "application/json",
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "[\n  {\n    \"created_at\": \"2017-06-28T14:00:35.804Z\",\n    \"meat\": \"chicken\",\n    \"notes\": \"no notes\",\n    \"rice\": false,\n    \"salsa\": true,\n    \"id\": \"5953b683d2d25857a838c3e2\"\n  }\n]",
+      "response_headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"514952bac96ed39e419e30da93c126f0\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "d3d58e88-837c-49ca-9bc9-f807600a5fec",
+        "X-Runtime": "0.003555",
+        "Content-Length": "137"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": "curl -g \"http://localhost:3000/tacos\" -X GET \\\n\t-H \"Accept: application/json\" \\\n\t-H \"Content-Type: application/json\""
+    }
+  ]
+}

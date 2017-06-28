@@ -1,0 +1,31 @@
+{
+  "resources": [
+    {
+      "name": "Tacos",
+      "explanation": null,
+      "examples": [
+        {
+          "description": "Create new taco order",
+          "link": "tacos/create_new_taco_order.json",
+          "groups": "all",
+          "route": "/tacos",
+          "method": "post"
+        },
+        {
+          "description": "Delete taco order",
+          "link": "tacos/delete_taco_order.json",
+          "groups": "all",
+          "route": "/tacos/:id",
+          "method": "delete"
+        },
+        {
+          "description": "Get tacos list",
+          "link": "tacos/get_tacos_list.json",
+          "groups": "all",
+          "route": "/tacos",
+          "method": "get"
+        }
+      ]
+    }
+  ]
+}
